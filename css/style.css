@@ -118,6 +118,13 @@ article:hover {
   border-radius: 8px;
 }
 
+/* Crédit */
+
+.credit {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
 /* Responsivité */
 @media (max-width: 1024px) {
   section {
