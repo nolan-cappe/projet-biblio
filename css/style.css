@@ -121,8 +121,7 @@ article:hover {
 /* Crédit */
 
 .credit {
-  display: grid;
-  grid-template-columns: auto 1fr;
+  background-color: #d1af76;
 }
 
 /* Responsivité */
