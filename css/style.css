@@ -68,24 +68,22 @@ main {
   
 section {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
   }
 
- 
-  
-  .article:hover {
-      transform: scale(1.1);
-      background-color: #6d071a;
-    }
-  
   article {
-    border: 5px circle black;
+    border: 3px solid black;
     border-radius: 8px;
     box-sizing: content-box;
     background-color: #d1af76;
     transition: transform 0.3s ease;
   }
+
+  article:hover {
+    transform: scale(1.1);
+  }
+
 
 .livre {
     background-color: #d1af76;
