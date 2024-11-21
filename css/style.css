@@ -72,19 +72,14 @@ section {
     gap: 5px;
   }
 
-  .item{
-    padding: 20px;
-    background-color: rgb(27, 27, 27);
-    text-align: center;
-    transition: transform 0.3s ease;
-  }
+ 
   
   .article:hover {
       transform: scale(1.1);
       background-color: #6d071a;
     }
   
-  article:hover {
+  article {
     border: 5px circle black;
     border-radius: 8px;
     box-sizing: content-box;
