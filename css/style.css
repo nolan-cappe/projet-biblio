@@ -72,16 +72,11 @@ section {
     gap: 25px;
   }
 
-  article {
-    border: 3px solid black;
+  article:hover {
+    border: 3px solid white;
     border-radius: 8px;
     box-sizing: content-box;
     background-color: #d1af76;
-    transition: transform 0.3s ease;
-  }
-
-  article:hover {
-    transform: scale(1.1);
   }
 
 
